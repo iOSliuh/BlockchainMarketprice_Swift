@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ExerciseBlockchain/Pods-ExerciseBlockchain-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework

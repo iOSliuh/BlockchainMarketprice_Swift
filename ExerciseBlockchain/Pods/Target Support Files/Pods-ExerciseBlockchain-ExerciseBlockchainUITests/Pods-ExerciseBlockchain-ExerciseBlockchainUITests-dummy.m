@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ExerciseBlockchain_ExerciseBlockchainUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ExerciseBlockchain_ExerciseBlockchainUITests
+@end

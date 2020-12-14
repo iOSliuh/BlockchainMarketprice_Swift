@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.0)
+  - HandyJSON (5.0.2)
+  - SwiftCharts (0.6.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - SwiftCharts
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - SwiftCharts
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
+
+PODFILE CHECKSUM: e011b11b19644b7332af02ab72bdc0b597086c64
+
+COCOAPODS: 1.9.3

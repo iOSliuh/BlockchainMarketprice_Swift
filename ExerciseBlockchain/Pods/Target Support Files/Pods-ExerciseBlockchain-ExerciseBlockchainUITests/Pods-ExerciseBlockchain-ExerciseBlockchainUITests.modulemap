@@ -1,0 +1,6 @@
+framework module Pods_ExerciseBlockchain_ExerciseBlockchainUITests {
+  umbrella header "Pods-ExerciseBlockchain-ExerciseBlockchainUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
