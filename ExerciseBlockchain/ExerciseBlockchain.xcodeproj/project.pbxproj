@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33164102258BA735003BCEFC /* NetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33164101258BA735003BCEFC /* NetData.swift */; };
+		3316415E258C3500003BCEFC /* ChartDurationSelectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316415D258C3500003BCEFC /* ChartDurationSelectionsView.swift */; };
+		33164171258C9E1D003BCEFC /* MarketPriceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33164170258C9E1D003BCEFC /* MarketPriceChartView.swift */; };
+		33164177258CAEAF003BCEFC /* ToolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33164176258CAEAF003BCEFC /* ToolClass.swift */; };
+		334FB315258CE78B0055CEA5 /* HeaderTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334FB314258CE78B0055CEA5 /* HeaderTitleView.swift */; };
 		33DE00682586F00F008C98A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE00672586F00F008C98A3 /* AppDelegate.swift */; };
-		33DE006A2586F00F008C98A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE00692586F00F008C98A3 /* SceneDelegate.swift */; };
-		33DE006C2586F00F008C98A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE006B2586F00F008C98A3 /* ViewController.swift */; };
+		33DE006C2586F00F008C98A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE006B2586F00F008C98A3 /* HomeViewController.swift */; };
 		33DE00712586F011008C98A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DE00702586F011008C98A3 /* Assets.xcassets */; };
-		33DE007F2586F012008C98A3 /* ExerciseBlockchainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE007E2586F012008C98A3 /* ExerciseBlockchainTests.swift */; };
-		33DE008A2586F012008C98A3 /* ExerciseBlockchainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE00892586F012008C98A3 /* ExerciseBlockchainUITests.swift */; };
-		33DE009B2586F06F008C98A3 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE009A2586F06F008C98A3 /* ChartModel.swift */; };
 		33DE00A02586F0AB008C98A3 /* EnumCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE009F2586F0AB008C98A3 /* EnumCommon.swift */; };
 		33DE00B42586F185008C98A3 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE00B32586F185008C98A3 /* ApiClient.swift */; };
 		33DE00B92586F224008C98A3 /* ChartSettingDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE00B82586F224008C98A3 /* ChartSettingDefaults.swift */; };
-		48CB1F9F973D27179F16C85F /* Pods_ExerciseBlockchainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117F5A23F1F34439DE689AC2 /* Pods_ExerciseBlockchainTests.framework */; };
-		6F1389A8B038FF1913212D85 /* Pods_ExerciseBlockchain_ExerciseBlockchainUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE27CC76B8B5E67B0964E3A8 /* Pods_ExerciseBlockchain_ExerciseBlockchainUITests.framework */; };
 		92EE2B50C104BB20B538FC10 /* Pods_ExerciseBlockchain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6723D889E7CB4C57F0399AC9 /* Pods_ExerciseBlockchain.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,31 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		117F5A23F1F34439DE689AC2 /* Pods_ExerciseBlockchainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExerciseBlockchainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33164101258BA735003BCEFC /* NetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetData.swift; sourceTree = "<group>"; };
+		3316415D258C3500003BCEFC /* ChartDurationSelectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDurationSelectionsView.swift; sourceTree = "<group>"; };
+		33164170258C9E1D003BCEFC /* MarketPriceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceChartView.swift; sourceTree = "<group>"; };
+		33164176258CAEAF003BCEFC /* ToolClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolClass.swift; sourceTree = "<group>"; };
+		334FB314258CE78B0055CEA5 /* HeaderTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTitleView.swift; sourceTree = "<group>"; };
 		33DE00642586F00F008C98A3 /* ExerciseBlockchain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseBlockchain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DE00672586F00F008C98A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33DE00692586F00F008C98A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33DE006B2586F00F008C98A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33DE006B2586F00F008C98A3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		33DE00702586F011008C98A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33DE00752586F011008C98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33DE007A2586F012008C98A3 /* ExerciseBlockchainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExerciseBlockchainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33DE007E2586F012008C98A3 /* ExerciseBlockchainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseBlockchainTests.swift; sourceTree = "<group>"; };
-		33DE00802586F012008C98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33DE00852586F012008C98A3 /* ExerciseBlockchainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExerciseBlockchainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33DE00892586F012008C98A3 /* ExerciseBlockchainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseBlockchainUITests.swift; sourceTree = "<group>"; };
-		33DE008B2586F012008C98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33DE009A2586F06F008C98A3 /* ChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
 		33DE009F2586F0AB008C98A3 /* EnumCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumCommon.swift; sourceTree = "<group>"; };
 		33DE00B32586F185008C98A3 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		33DE00B82586F224008C98A3 /* ChartSettingDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSettingDefaults.swift; sourceTree = "<group>"; };
-		3ECA0F80F32B3B3B80FFD9D6 /* Pods-ExerciseBlockchain-ExerciseBlockchainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExerciseBlockchain-ExerciseBlockchainUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExerciseBlockchain-ExerciseBlockchainUITests/Pods-ExerciseBlockchain-ExerciseBlockchainUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4220B1E52D3CF9F680896A00 /* Pods-ExerciseBlockchain-ExerciseBlockchainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExerciseBlockchain-ExerciseBlockchainUITests.release.xcconfig"; path = "Target Support Files/Pods-ExerciseBlockchain-ExerciseBlockchainUITests/Pods-ExerciseBlockchain-ExerciseBlockchainUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5839D8B19C5FBB40EBD154F9 /* Pods-ExerciseBlockchain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExerciseBlockchain.release.xcconfig"; path = "Target Support Files/Pods-ExerciseBlockchain/Pods-ExerciseBlockchain.release.xcconfig"; sourceTree = "<group>"; };
 		6723D889E7CB4C57F0399AC9 /* Pods_ExerciseBlockchain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExerciseBlockchain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85366619F53F62ED081A2089 /* Pods-ExerciseBlockchainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExerciseBlockchainTests.release.xcconfig"; path = "Target Support Files/Pods-ExerciseBlockchainTests/Pods-ExerciseBlockchainTests.release.xcconfig"; sourceTree = "<group>"; };
 		9517B806636B2CAB0175841E /* Pods-ExerciseBlockchain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExerciseBlockchain.debug.xcconfig"; path = "Target Support Files/Pods-ExerciseBlockchain/Pods-ExerciseBlockchain.debug.xcconfig"; sourceTree = "<group>"; };
-		BE27CC76B8B5E67B0964E3A8 /* Pods_ExerciseBlockchain_ExerciseBlockchainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExerciseBlockchain_ExerciseBlockchainUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFDC17CFCC19153A6B366826 /* Pods-ExerciseBlockchainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExerciseBlockchainTests.debug.xcconfig"; path = "Target Support Files/Pods-ExerciseBlockchainTests/Pods-ExerciseBlockchainTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48CB1F9F973D27179F16C85F /* Pods_ExerciseBlockchainTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F1389A8B038FF1913212D85 /* Pods_ExerciseBlockchain_ExerciseBlockchainUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,18 +89,43 @@
 			isa = PBXGroup;
 			children = (
 				6723D889E7CB4C57F0399AC9 /* Pods_ExerciseBlockchain.framework */,
-				BE27CC76B8B5E67B0964E3A8 /* Pods_ExerciseBlockchain_ExerciseBlockchainUITests.framework */,
-				117F5A23F1F34439DE689AC2 /* Pods_ExerciseBlockchainTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		334FB331258D02070055CEA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				334FB314258CE78B0055CEA5 /* HeaderTitleView.swift */,
+				33164170258C9E1D003BCEFC /* MarketPriceChartView.swift */,
+				3316415D258C3500003BCEFC /* ChartDurationSelectionsView.swift */,
+				33DE00B82586F224008C98A3 /* ChartSettingDefaults.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		334FB332258D023A0055CEA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33164101258BA735003BCEFC /* NetData.swift */,
+				33DE00B32586F185008C98A3 /* ApiClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		334FB333258D02730055CEA5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				33DE009F2586F0AB008C98A3 /* EnumCommon.swift */,
+				33164176258CAEAF003BCEFC /* ToolClass.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		33DE005B2586F00F008C98A3 = {
 			isa = PBXGroup;
 			children = (
 				33DE00662586F00F008C98A3 /* ExerciseBlockchain */,
-				33DE007D2586F012008C98A3 /* ExerciseBlockchainTests */,
-				33DE00882586F012008C98A3 /* ExerciseBlockchainUITests */,
 				33DE00652586F00F008C98A3 /* Products */,
 				9141D85D26EA40D76AD17431 /* Pods */,
 				17973B0A7CE9BB38DE4F6DA9 /* Frameworks */,
@@ -131,34 +146,14 @@
 			isa = PBXGroup;
 			children = (
 				33DE00672586F00F008C98A3 /* AppDelegate.swift */,
-				33DE00692586F00F008C98A3 /* SceneDelegate.swift */,
-				33DE006B2586F00F008C98A3 /* ViewController.swift */,
-				33DE009A2586F06F008C98A3 /* ChartModel.swift */,
-				33DE00B82586F224008C98A3 /* ChartSettingDefaults.swift */,
-				33DE009F2586F0AB008C98A3 /* EnumCommon.swift */,
-				33DE00B32586F185008C98A3 /* ApiClient.swift */,
+				33DE006B2586F00F008C98A3 /* HomeViewController.swift */,
+				334FB332258D023A0055CEA5 /* Model */,
+				334FB331258D02070055CEA5 /* View */,
+				334FB333258D02730055CEA5 /* Tools */,
 				33DE00702586F011008C98A3 /* Assets.xcassets */,
 				33DE00752586F011008C98A3 /* Info.plist */,
 			);
 			path = ExerciseBlockchain;
-			sourceTree = "<group>";
-		};
-		33DE007D2586F012008C98A3 /* ExerciseBlockchainTests */ = {
-			isa = PBXGroup;
-			children = (
-				33DE007E2586F012008C98A3 /* ExerciseBlockchainTests.swift */,
-				33DE00802586F012008C98A3 /* Info.plist */,
-			);
-			path = ExerciseBlockchainTests;
-			sourceTree = "<group>";
-		};
-		33DE00882586F012008C98A3 /* ExerciseBlockchainUITests */ = {
-			isa = PBXGroup;
-			children = (
-				33DE00892586F012008C98A3 /* ExerciseBlockchainUITests.swift */,
-				33DE008B2586F012008C98A3 /* Info.plist */,
-			);
-			path = ExerciseBlockchainUITests;
 			sourceTree = "<group>";
 		};
 		9141D85D26EA40D76AD17431 /* Pods */ = {
@@ -166,10 +161,6 @@
 			children = (
 				9517B806636B2CAB0175841E /* Pods-ExerciseBlockchain.debug.xcconfig */,
 				5839D8B19C5FBB40EBD154F9 /* Pods-ExerciseBlockchain.release.xcconfig */,
-				3ECA0F80F32B3B3B80FFD9D6 /* Pods-ExerciseBlockchain-ExerciseBlockchainUITests.debug.xcconfig */,
-				4220B1E52D3CF9F680896A00 /* Pods-ExerciseBlockchain-ExerciseBlockchainUITests.release.xcconfig */,
-				BFDC17CFCC19153A6B366826 /* Pods-ExerciseBlockchainTests.debug.xcconfig */,
-				85366619F53F62ED081A2089 /* Pods-ExerciseBlockchainTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,7 +191,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33DE00912586F012008C98A3 /* Build configuration list for PBXNativeTarget "ExerciseBlockchainTests" */;
 			buildPhases = (
-				65E2CE193C528D1C5BA32314 /* [CP] Check Pods Manifest.lock */,
 				33DE00762586F012008C98A3 /* Sources */,
 				33DE00772586F012008C98A3 /* Frameworks */,
 				33DE00782586F012008C98A3 /* Resources */,
@@ -219,11 +209,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33DE00942586F012008C98A3 /* Build configuration list for PBXNativeTarget "ExerciseBlockchainUITests" */;
 			buildPhases = (
-				4390F19E2BC128E9CD4D6769 /* [CP] Check Pods Manifest.lock */,
 				33DE00812586F012008C98A3 /* Sources */,
 				33DE00822586F012008C98A3 /* Frameworks */,
 				33DE00832586F012008C98A3 /* Resources */,
-				D988A72E300EEA14AEDDF133 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,50 +291,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4390F19E2BC128E9CD4D6769 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExerciseBlockchain-ExerciseBlockchainUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		65E2CE193C528D1C5BA32314 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExerciseBlockchainTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6D31D6B709EBC85DAAE3FE7B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,23 +330,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D988A72E300EEA14AEDDF133 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExerciseBlockchain-ExerciseBlockchainUITests/Pods-ExerciseBlockchain-ExerciseBlockchainUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExerciseBlockchain-ExerciseBlockchainUITests/Pods-ExerciseBlockchain-ExerciseBlockchainUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExerciseBlockchain-ExerciseBlockchainUITests/Pods-ExerciseBlockchain-ExerciseBlockchainUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -411,12 +338,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				33DE00B92586F224008C98A3 /* ChartSettingDefaults.swift in Sources */,
-				33DE006C2586F00F008C98A3 /* ViewController.swift in Sources */,
+				33164171258C9E1D003BCEFC /* MarketPriceChartView.swift in Sources */,
+				33DE006C2586F00F008C98A3 /* HomeViewController.swift in Sources */,
+				33164177258CAEAF003BCEFC /* ToolClass.swift in Sources */,
+				33164102258BA735003BCEFC /* NetData.swift in Sources */,
 				33DE00682586F00F008C98A3 /* AppDelegate.swift in Sources */,
 				33DE00A02586F0AB008C98A3 /* EnumCommon.swift in Sources */,
-				33DE009B2586F06F008C98A3 /* ChartModel.swift in Sources */,
-				33DE006A2586F00F008C98A3 /* SceneDelegate.swift in Sources */,
 				33DE00B42586F185008C98A3 /* ApiClient.swift in Sources */,
+				3316415E258C3500003BCEFC /* ChartDurationSelectionsView.swift in Sources */,
+				334FB315258CE78B0055CEA5 /* HeaderTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +354,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33DE007F2586F012008C98A3 /* ExerciseBlockchainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +361,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33DE008A2586F012008C98A3 /* ExerciseBlockchainUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +538,6 @@
 		};
 		33DE00922586F012008C98A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFDC17CFCC19153A6B366826 /* Pods-ExerciseBlockchainTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -632,7 +559,6 @@
 		};
 		33DE00932586F012008C98A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85366619F53F62ED081A2089 /* Pods-ExerciseBlockchainTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -654,7 +580,6 @@
 		};
 		33DE00952586F012008C98A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ECA0F80F32B3B3B80FFD9D6 /* Pods-ExerciseBlockchain-ExerciseBlockchainUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -674,7 +599,6 @@
 		};
 		33DE00962586F012008C98A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4220B1E52D3CF9F680896A00 /* Pods-ExerciseBlockchain-ExerciseBlockchainUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,17 +7,6 @@ target 'ExerciseBlockchain' do
 
   # Pods for ExerciseBlockchain
 
-    pod 'Alamofire'
     pod 'SwiftCharts'
-    pod 'HandyJSON'
-
-  target 'ExerciseBlockchainTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'ExerciseBlockchainUITests' do
-    # Pods for testing
-  end
 
 end
